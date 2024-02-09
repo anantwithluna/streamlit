@@ -3,7 +3,6 @@ st.image("withluna_ai_logo.jpg")
 st.header("Luna's NER demo")
 
 text = st.text_input('Put your texts here')
-st.button("Run NER", type="primary")
 if st.button('Run NER'):
     st.write("""1. Project names: AI/ML deployment
 2. Risks: potential risk that can slow down the launch date, scalability issue in db transfer, latency of API calls causing bottleneck
