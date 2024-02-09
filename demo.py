@@ -1,6 +1,6 @@
 import streamlit as st
-st.image("")
-st.header("Luna's NER")
+st.image("withluna_ai_logo.jpg")
+st.header("Luna's NER demo")
 
 text = st.text_input('Put your texts here')
 st.button("Run NER", type="primary")
