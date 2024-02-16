@@ -1,5 +1,7 @@
 import streamlit as st
 st.header("Luna's NER demo")
+st.sidebar.header("Link to Demo Document")
+st.sidebar.link_button("Read the Demo Doc", "https://www.youtube.com/watch?v=TU1gMloI0kc&pp=ygUMb3BlbiBhaSBzb3Jh")
 
 text = st.text_input('Put your texts here')
 if st.button('Run NER'):
