@@ -8,7 +8,7 @@ st.sidebar.link_button("Submit Feedback about the output","https://forms.gle/c2z
 
 text = st.text_area('Enter your text here',height = 300)
 if st.button('Generate output'):
-    st.write(""""Project XYZ:
+    st.write("""Project XYZ:
   - Risks:
     Description: Key dependency on the ABC project, specifically in terms of data integration. Delays in the ABC project have impacted the timelines of the XYZ project.
     Raised by:  John Smith (Product Marketing Manager)
@@ -33,6 +33,6 @@ if st.button('Generate output'):
   - Link to important resources:
 
     Important resources: XYZ project documentation
-    Link: [XYZ Project Documentation](https://www.example.com/xyz-project-documentation)"""")
+    Link: [XYZ Project Documentation](https://www.example.com/xyz-project-documentation)""")
 else:
     pass
