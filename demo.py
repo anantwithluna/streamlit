@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Luna Vista")
-st.sidebar.image('demo.jpg')
+st.sidebar.image('withluna_ai_logo.jpg')
 st.sidebar.header("Link to Demo Document")
 st.sidebar.link_button("Read the Demo Doc", "https://www.youtube.com/watch?v=TU1gMloI0kc&pp=ygUMb3BlbiBhaSBzb3Jh")
 st.sidebar.link_button("Submit Feedback about the output","https://forms.gle/c2zuB8DTgRcKY2QKA")
